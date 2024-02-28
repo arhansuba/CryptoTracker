@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoTracker", "CryptoTracker.csproj", "{22048BC7-EAB4-4290-BF45-E3CE8C9A513B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{66C875B8-A751-4265-A891-612F9E5A9D40} = {66C875B8-A751-4265-A891-612F9E5A9D40}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoTracker.DataAcces", "..\CryptoTracker.DataAcces\CryptoTracker.DataAcces.csproj", "{66C875B8-A751-4265-A891-612F9E5A9D40}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoTracker.Business", "..\CryptoTracker.Business\CryptoTracker.Business.csproj", "{E1E8CBC0-484C-47DE-8878-05A1D05AE7CA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoTracker.Web", "..\CryptoTracker.Web\CryptoTracker.Web.csproj", "{1301C9CA-BDB6-407E-B6D4-2C92A2C44CE7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AB8415A3-13CE-4AF7-8D9A-FD3F4D6D9108}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22048BC7-EAB4-4290-BF45-E3CE8C9A513B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22048BC7-EAB4-4290-BF45-E3CE8C9A513B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22048BC7-EAB4-4290-BF45-E3CE8C9A513B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22048BC7-EAB4-4290-BF45-E3CE8C9A513B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66C875B8-A751-4265-A891-612F9E5A9D40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66C875B8-A751-4265-A891-612F9E5A9D40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66C875B8-A751-4265-A891-612F9E5A9D40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66C875B8-A751-4265-A891-612F9E5A9D40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1E8CBC0-484C-47DE-8878-05A1D05AE7CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1E8CBC0-484C-47DE-8878-05A1D05AE7CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1E8CBC0-484C-47DE-8878-05A1D05AE7CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1E8CBC0-484C-47DE-8878-05A1D05AE7CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1301C9CA-BDB6-407E-B6D4-2C92A2C44CE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1301C9CA-BDB6-407E-B6D4-2C92A2C44CE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1301C9CA-BDB6-407E-B6D4-2C92A2C44CE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1301C9CA-BDB6-407E-B6D4-2C92A2C44CE7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D763DE55-148B-4341-A208-4C9992E34A1D}
+	EndGlobalSection
+EndGlobal
